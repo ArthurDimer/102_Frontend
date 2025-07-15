@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        label{
+            color: rgb(8, 255, 0);
+        }
+
+        body{
+            background-color: rgb(33, 35, 110)
+        }
+
+        .botao{
+            /* background-color: chartreuse; */
+        }
+
+        button{
+            background-color: chartreuse;
+        }
+
+        h1{
+            color: aliceblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário de Login</h1>
+    <form>
+        <label style="color: rgb(8, 255, 0);" for="user">Usuário: </label>
+        <input id="user" type="email"><br>
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha"><br>
+        <button class="botao" type="submit">Enviar</button>
+        <button type="reset">Cancelar</button>
+    </form>
+</body>
+</html>
