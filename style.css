@@ -1,4 +1,65 @@
-h1{
-    color:brown
+*{
+    color: rgb(21, 57, 23);
+    box-sizing: border-box;
+    margin: 0  ;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
 
+body > header{
+    background-color: salmon;
+    padding: 16px 8;
+    color:#fff;
+}
+
+header {
+    background-color: aqua;
+}
+
+header li {
+    display: inline;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 180px;
+}
+
+section{
+    padding: 16px;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+.articles article{
+    width: 30%;
+}
+
+.articles article h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.articles article a{
+    background-color: #2f3640;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
 }
